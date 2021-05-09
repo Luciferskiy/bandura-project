@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: Lobster, cursive;
+    color: #00BFFF;
+    background-color:#f5f5dc;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+
+}
+header div a {
+    text-decoration: none;
+}
+.headertitle {
+    font-size: 34px;
+    font-stretch: 100%;
+    font-weight: 400;
+}
+ul {
+    margin-left: 0;
+}
+li {
+    list-style-type: none;
+    padding: 30px;
+}
+.menu-item-list a {
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+}
+.menu-item-list a:hover {
+    color: rgb(135, 206, 250);
+}
+.container {
+    max-width: 1220;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.menu-list {
+    display: flex;
+    padding-left: 30px;
+}
