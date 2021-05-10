@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Yeseva One', cursive;
-    color: #FF00FF;
+    color: #EE82EE;
     background-color:#FFF0F5;
     text-decoration: none;
 }
@@ -31,6 +31,7 @@ li {
 .menu-item-list a {
     font-family: 'Brygada 1918', serif;
     font-family: 'Yeseva One', cursive;
+    color: #FF00FF;
     cursor: pointer;
 }
 .menu-item-list a:hover {
